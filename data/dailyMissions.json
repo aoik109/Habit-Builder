@@ -1,0 +1,15 @@
+{
+    "missions": [
+        {
+            "isMissionCompleted": true,
+            "missionName": "exercise",
+            "missionNumber": 1
+        },
+        {
+            "isMissionCompleted": false,
+            "missionName": "go to sleep early",
+            "missionNumber": 2
+        }
+    ],
+    "username": "Allison"
+}

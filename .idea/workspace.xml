@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="471f6f21-a610-459b-acbf-10f95403bf44" name="Changes" comment="Phase 4: Task 3">
+      <change beforePath="$PROJECT_DIR$/data/dailyMissionsGui.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/dailyMissionsGui.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="temp_branch_data_persistence_start" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/model/DailyMissionList.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/model/Mission.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/persistence/JsonReader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/persistence/JsonWriter.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/persistence/Writable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ui/DailyMissionApp.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ui/DailyMissionAppGui.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/ui/Main.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/model/EventTest.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FPFNfqOiisRgE2fNoQqZdiM4d5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/allis/OneDrive/1 UBC 2WT/Term 1/2 CPSC 210/Term Project",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyMissionListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.DailyMissionListTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventLogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.EventLogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.EventTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MissionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Project-Starter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="model" />
+      <option name="MAIN_CLASS_NAME" value="model.MissionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MissionTest" />
+        <item itemvalue="JUnit.EventTest" />
+        <item itemvalue="JUnit.EventLogTest" />
+        <item itemvalue="JUnit.DailyMissionListTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="471f6f21-a610-459b-acbf-10f95403bf44" name="Changes" comment="" />
+      <created>1664385774370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664385774370</updated>
+    </task>
+    <task id="LOCAL-00014" summary="P1 - added missionNumber field in Mission class and completeAMission in DailyMissionApp">
+      <created>1665470854979</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665470854979</updated>
+    </task>
+    <task id="LOCAL-00015" summary="P1 - 3rd autograder test after adding missionNumber field to Mission and suppressing warnings for runDailyMissionApp">
+      <created>1665533640427</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665533640427</updated>
+    </task>
+    <task id="LOCAL-00016" summary="P1 - cleaned up the console">
+      <created>1665546750783</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1665546750783</updated>
+    </task>
+    <task id="LOCAL-00017" summary="P1 - created user input catches; if the user does not input the correct command, then the directions will show until they input the correct command">
+      <created>1665550134325</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1665550134325</updated>
+    </task>
+    <task id="LOCAL-00018" summary="P1 - fixed the user input catch in setUpMissions()">
+      <created>1665555798579</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1665555798579</updated>
+    </task>
+    <task id="LOCAL-00019" summary="P1 - added some missing EFFECTS clauses">
+      <created>1665642647307</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1665642647307</updated>
+    </task>
+    <task id="LOCAL-00020" summary="P1 - added a condition so that the user cannot complete the same mission twice in one day.">
+      <created>1665969753254</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1665969753254</updated>
+    </task>
+    <task id="LOCAL-00021" summary="P1 - added a test to check if totalPoints = 0 if the added points makes it less than zero">
+      <created>1665970278660</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1665970278660</updated>
+    </task>
+    <task id="LOCAL-00022" summary="P1 - edited all specifications and cleaned up some methods; added a catch to checkIfAllMissionsAreComplete so that it only adds 10 points if the most recently completed mission has not been completed yet">
+      <created>1665975222216</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1665975222216</updated>
+    </task>
+    <task id="LOCAL-00023" summary="P1 - reformatted all the code and edited the user story to say add multiple missions to a daily missions list">
+      <created>1665976985064</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665976985064</updated>
+    </task>
+    <task id="LOCAL-00024" summary="P2 - added two user stories for data persistence and began to add the option to load daily missions from file">
+      <created>1666479788652</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1666479788652</updated>
+    </task>
+    <task id="LOCAL-00025" summary="P2 - added and implemented JsonReader, JsonWriter, and Writable">
+      <created>1666669485249</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1666669485249</updated>
+    </task>
+    <task id="LOCAL-00026" summary="P2 - implemented the JsonReaderTest and JsonWriterTest">
+      <created>1666820190761</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666820190761</updated>
+    </task>
+    <task id="LOCAL-00027" summary="P2 - shortened the &gt;25 line method in DailyMissionApp">
+      <created>1666823355385</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1666823355385</updated>
+    </task>
+    <task id="LOCAL-00028" summary="P2 - edited the JsonReaderTest and added the jar file to git">
+      <created>1666824420268</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1666824420268</updated>
+    </task>
+    <task id="LOCAL-00029" summary="P2 - final commit; edited some effects clauses and added citations">
+      <created>1666927153380</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1666927153380</updated>
+    </task>
+    <task id="LOCAL-00030" summary="P3 - working on GUI, very draft, next update will make the panel have the CardLayout">
+      <created>1668487684627</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668487684627</updated>
+    </task>
+    <task id="LOCAL-00031" summary="P3 - Created the CardLayout">
+      <created>1668711833898</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668711833898</updated>
+    </task>
+    <task id="LOCAL-00032" summary="P3 - edited the home page and missions menu">
+      <created>1668713548309</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668713548309</updated>
+    </task>
+    <task id="LOCAL-00033" summary="P3 - tried to setSize but didn't work">
+      <created>1668721878900</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668721878900</updated>
+    </task>
+    <task id="LOCAL-00034" summary="P3 - setPreferredSize() worked!">
+      <created>1668727586587</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668727586587</updated>
+    </task>
+    <task id="LOCAL-00035" summary="P3 - created welcomePanel and overviewPanel">
+      <created>1668733542013</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668733542013</updated>
+    </task>
+    <task id="LOCAL-00036" summary="P3 - finished setUpPanel">
+      <created>1668736107837</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668736107837</updated>
+    </task>
+    <task id="LOCAL-00037" summary="P3 - fixed method length of createSetUpPanel">
+      <created>1668736584987</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668736584987</updated>
+    </task>
+    <task id="LOCAL-00038" summary="P3 - need to fix it so that the frame is created last">
+      <created>1668743441078</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668743441078</updated>
+    </task>
+    <task id="LOCAL-00039" summary="P3 - completely updates so that the order is better but idk... if this doesn't work, i am discarding setUp and just putting &quot;sample mission&quot; to start">
+      <created>1668745157188</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745157188</updated>
+    </task>
+    <task id="LOCAL-00040" summary="P3 - working on new version almost done with missions menu components">
+      <created>1668748039844</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1668748039844</updated>
+    </task>
+    <task id="LOCAL-00041" summary="P3 - finished adding components">
+      <created>1668749905821</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1668749905821</updated>
+    </task>
+    <task id="LOCAL-00042" summary="P3 - new update is somehow running">
+      <created>1668750789368</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1668750789368</updated>
+    </task>
+    <task id="LOCAL-00043" summary="P3 - gave up on this method next update i'm going to add dialogues">
+      <created>1668754358014</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1668754358014</updated>
+    </task>
+    <task id="LOCAL-00044" summary="P3 - JOptionPane is working better">
+      <created>1668764691997</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1668764691997</updated>
+    </task>
+    <task id="LOCAL-00045" summary="P3 - got checkBoxPanel to work!">
+      <created>1668771984295</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1668771984295</updated>
+    </task>
+    <task id="LOCAL-00046" summary="P3 - working on completing missions going to make CheckboxGroup">
+      <created>1668773253009</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1668773253009</updated>
+    </task>
+    <task id="LOCAL-00047" summary="P3 - its almost working there's a bug with viewNotCompletedMissions">
+      <created>1668777246167</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1668777246167</updated>
+    </task>
+    <task id="LOCAL-00048" summary="P3 - fixed resetNotCompletedMissionList">
+      <created>1668780520885</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1668780520885</updated>
+    </task>
+    <task id="LOCAL-00049" summary="P3 - implemented addMission and fixed more bugs in the resetNotCompletedMissionList">
+      <created>1668781360454</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1668781360454</updated>
+    </task>
+    <task id="LOCAL-00050" summary="P3 - scrapped the reset stuff">
+      <created>1668782402604</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1668782402604</updated>
+    </task>
+    <task id="LOCAL-00051" summary="P3 - made dialogues instead that work much better">
+      <created>1668783195618</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783195618</updated>
+    </task>
+    <task id="LOCAL-00052" summary="P3 - added view points and view all missions">
+      <created>1668784963809</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1668784963809</updated>
+    </task>
+    <task id="LOCAL-00053" summary="P3 - need to do JSON and README after this">
+      <created>1668785367610</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1668785367610</updated>
+    </task>
+    <task id="LOCAL-00054" summary="P3 - need to do readme but other things are working">
+      <created>1668803885942</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1668803885943</updated>
+    </task>
+    <task id="LOCAL-00055" summary="P3 - need to finish readMe and choose a different image for addMission">
+      <created>1668807515315</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1668807515315</updated>
+    </task>
+    <task id="LOCAL-00056" summary="P3 - finished README now just need to delete the draft files and write the effects clauses">
+      <created>1668817277213</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1668817277213</updated>
+    </task>
+    <task id="LOCAL-00057" summary="P3 - committing and submitting">
+      <created>1668819118193</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1668819118193</updated>
+    </task>
+    <task id="LOCAL-00058" summary="P3 - checkstyle is passing on intellij">
+      <created>1668820433003</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1668820433004</updated>
+    </task>
+    <task id="LOCAL-00059" summary="P4 - seeing code coverage">
+      <created>1669357055922</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1669357055923</updated>
+    </task>
+    <task id="LOCAL-00060" summary="P4 - implemented EventTest and EventLogTest">
+      <created>1669443411118</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1669443411119</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Phase 4: Task 2">
+      <created>1669850396273</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1669850396273</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Phase 4: Task 3">
+      <created>1669956831595</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1669956831595</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="P3 - need to fix it so that the frame is created last" />
+    <MESSAGE value="P3 - completely updates so that the order is better but idk... if this doesn't work, i am discarding setUp and just putting &quot;sample mission&quot; to start" />
+    <MESSAGE value="P3 - working on new version almost done with missions menu components" />
+    <MESSAGE value="P3 - finished adding components" />
+    <MESSAGE value="P3 - new update is somehow running" />
+    <MESSAGE value="P3 - gave up on this method next update i'm going to add dialogues" />
+    <MESSAGE value="P3 - JOptionPane is working better" />
+    <MESSAGE value="P3 - got checkBoxPanel to work!" />
+    <MESSAGE value="P3 - working on completing missions going to make CheckboxGroup" />
+    <MESSAGE value="P3 - its almost working there's a bug with viewNotCompletedMissions" />
+    <MESSAGE value="P3 - fixed resetNotCompletedMissionList" />
+    <MESSAGE value="P3 - implemented addMission and fixed more bugs in the resetNotCompletedMissionList" />
+    <MESSAGE value="P3 - scrapped the reset stuff" />
+    <MESSAGE value="P3 - made dialogues instead that work much better" />
+    <MESSAGE value="P3 - added view points and view all missions" />
+    <MESSAGE value="P3 - need to do JSON and README after this" />
+    <MESSAGE value="P3 - need to do readme but other things are working" />
+    <MESSAGE value="P3 - need to finish readMe and choose a different image for addMission" />
+    <MESSAGE value="P3 - finished README now just need to delete the draft files and write the effects clauses" />
+    <MESSAGE value="P3 - committing and submitting" />
+    <MESSAGE value="P3 - checkstyle is passing on intellij" />
+    <MESSAGE value="P4 - seeing code coverage" />
+    <MESSAGE value="P4 - implemented EventTest and EventLogTest" />
+    <MESSAGE value="Phase 4: Task 2" />
+    <MESSAGE value="Phase 4: Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Phase 4: Task 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="model.Mission" memberName="missionNumber" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project_Starter$JsonReaderTest_testReaderNonExistentFile.ic" NAME="JsonReaderTest.testReaderNonExistentFile Coverage Results" MODIFIED="1666823999258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$JsonWriterTest.ic" NAME="JsonWriterTest Coverage Results" MODIFIED="1668819672032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$EventLogTest_testEvent.ic" NAME="EventLogTest.testEvent Coverage Results" MODIFIED="1669356575334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$MissionTest.ic" NAME="MissionTest Coverage Results" MODIFIED="1669850264254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$DailyMissionListTest.ic" NAME="DailyMissionListTest Coverage Results" MODIFIED="1669850312501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>model.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$JsonWriterTest_testWriterGeneralDailyMissionsListCompletedOneOfTwoMissions.ic" NAME="JsonWriterTest.testWriterGeneralDailyMissionsListCompletedOneOfTwoMissions Coverage Results" MODIFIED="1666820069032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$Main.ic" NAME="Main Coverage Results" MODIFIED="1669355590661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$ui_Main.ic" NAME="ui.Main Coverage Results" MODIFIED="1666823410048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ui.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Project_Starter$JsonWriterTest_testWriterGeneralDailyMissionsListNoCompletedMissions.ic" NAME="JsonWriterTest.testWriterGeneralDailyMissionsListNoCompletedMissions Coverage Results" MODIFIED="1666817691750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>persistence.*</FILTER>
+    </SUITE>
+  </component>
+</project>
